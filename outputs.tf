@@ -26,3 +26,7 @@ output "consul_join_tag_value"{
 output "nomad_gossip_key"{
   value = "${base64encode(random_id.nomad_gossip_key.hex)}"
 }
+
+output "test"{
+  value = "${base64encode(random_id.nomad_gossip_key.hex)}"
+}
