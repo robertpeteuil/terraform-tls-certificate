@@ -36,6 +36,12 @@ resource "random_id" "consul_master_token" {
   byte_length = 16
 }
 
+# Consul master token
+resource "random_id" "consul_master_token2" {
+  byte_length = 16
+}
+
+
 # Consul join key
 resource "random_id" "consul_join_tag_value" {
   byte_length = 16
