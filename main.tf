@@ -18,8 +18,8 @@ resource "tls_self_signed_cert" "root" {
 
   allowed_uses = [
     "cert_signing",
+    "digital_signature",
     "crl_signing",
-    "servers_auth",
   ]
 
   is_ca_certificate = "${var.is_ca_certificate}"
