@@ -27,3 +27,4 @@ variable "is_ca_certificate" {
   description = "will this TLS certificate be a CA certificate "
   default     = true
 }
+
