@@ -41,11 +41,9 @@ output "nomad_gossip_key"{
 }
 
 
-/*
 output "test_demo"{
   value = "${base64encode(random_id.nomad_gossip_key.hex)}"
   sensitive = false
 
 }
 
-*/
