@@ -20,7 +20,7 @@ variable "organization" {
 
 variable "validity_period_hours" {
   description = "Validity period of the TLS certificate"
-  default     = 960
+  default     = 720
 }
 
 variable "is_ca_certificate" {
